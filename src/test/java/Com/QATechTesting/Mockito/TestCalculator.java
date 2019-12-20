@@ -13,7 +13,7 @@ public class TestCalculator {
 	Calculator calc= new Calculator(calService);
 	
 	@Test
-	public void testAdd()
+	public void testPerform()
 	{
 		when(calService.add(2, 3)).thenReturn(5);
 		System.out.println(calService.add(2, 3));
